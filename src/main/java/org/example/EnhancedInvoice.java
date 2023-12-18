@@ -5,9 +5,9 @@ public class EnhancedInvoice {
     double totalFare;
     double avgFare;
 
-    public EnhancedInvoice(int totalRides , double totalFare ){
+    public EnhancedInvoice(int totalRides , double totalFare){
         this.totalRides=totalRides;
         this.totalFare=totalFare;
-        this.avgFare= avgFare/totalRides;
+        this.avgFare = totalFare / totalRides;
     }
 }
